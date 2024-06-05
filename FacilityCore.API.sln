@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacilityCore.API", "FacilityCore.API.csproj", "{53E5103F-D380-4BFB-A5AD-94A52A741491}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Aprentation", "1 - Aprentation", "{5BC339D4-6903-4389-84B9-0F63CF91BD4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53E5103F-D380-4BFB-A5AD-94A52A741491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E5103F-D380-4BFB-A5AD-94A52A741491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E5103F-D380-4BFB-A5AD-94A52A741491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E5103F-D380-4BFB-A5AD-94A52A741491}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53E5103F-D380-4BFB-A5AD-94A52A741491} = {5BC339D4-6903-4389-84B9-0F63CF91BD4A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32658BB2-675B-47DE-9E09-17D91D4313FB}
+	EndGlobalSection
+EndGlobal
