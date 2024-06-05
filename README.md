@@ -3,7 +3,8 @@ FacilityCore é uma biblioteca em andamento desenvolvida para facilitar a intera
 
 **Recursos**
 A biblioteca inclui serviços abrangentes para MongoDB, permitindo inserções, atualizações, exclusões e consultas de documentos de forma síncrona e assíncrona. Além disso, há suporte para pesquisas avançadas utilizando a distância de Levenshtein para encontrar correspondências aproximadas em nomes, tornando as buscas mais flexíveis e eficazes.
-<br>
+
+
 Para MySQL, FacilityCore API oferece métodos para realizar operações CRUD e incluir entidades relacionadas em consultas, além de verificar a existência de registros. A pesquisa por nome também é suportada, utilizando a função LIKE do SQL em combinação com a distância de Levenshtein para aprimorar a precisão dos resultados.
 
 **Autenticação JWT**
