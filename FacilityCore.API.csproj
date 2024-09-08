@@ -4,10 +4,10 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	  <PackageId>Facility.Core.RaianyBuch</PackageId>
 	  <Version>1.0</Version>
 	  <Product>Facility Framework Core</Product>
 	  <IsPackable>true</IsPackable>
-	  <PackageId>Facility.Core</PackageId>
 	  <Title>Facility Framework Core</Title>
 	  <Authors>Raiany Buch</Authors>
 	  <Description>A FacilityCore é uma biblioteca .NET que simplifica e agiliza o desenvolvimento de Web APIs. Ela oferece recursos para validação de dados, gerenciamento de erros, serialização, autenticação, documentação automática e muito mais, tornando o processo de desenvolvimento mais rápido. Com suporte para trabalhar com dados SQL (MySQL) e MongoDB. Possui também um facilitador para utilizar a mensageria HabbitMQ.</Description>

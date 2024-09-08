@@ -8,18 +8,17 @@ namespace FacilityCore.API
         /// <param name="args">Argumentos de linha de comando.</param>
         public static void Main(string[] args)
         {
-            // ** Cria um host builder com as configurações padrão.
-            var hostBuilder = Host.CreateDefaultBuilder(args);
-
-            // ** Configura o host web para usar a startup da aplicação.
-            hostBuilder.ConfigureWebHostDefaults(webBuilder =>
-            {
-                webBuilder.UseStartup<Startup>();
-            });
-
-            // ** Constrói e executa o host da aplicação.
-            hostBuilder.Build().Run();
+            // Cria um host builder com as configurações padrão.
+            CreateHostBuilder(args).Build().Run();
         }
+
+        // Método responsável por criar o host builder com a configuração da aplicação.
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    // Configura o host web para usar a startup da aplicação.
+                    webBuilder.UseStartup<Startup>();
+                });
     }
 }
-
